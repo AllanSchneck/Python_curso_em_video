@@ -1,0 +1,6 @@
+c = str(input('Digite o nome de uma cidade: '))
+t = (c.title())
+r = (t.find('Santo'))
+print('\033[1;30;44mO nome da sua cidade é {}\033[m'.format(c))
+print('\033[1;30;42mE sobre ter a palavra (Santo) é {}\033[m'.format(r))
+print('Santo' in t)

@@ -1,0 +1,6 @@
+n = str(input('Digite seu nome: '))
+t = (n.title())
+r = (t.find('Silva'))
+print('Seu nome é \033[1;30;45m{}\033[m'.format(n))
+print('Sobre ter o sobrenome (Silva) ele se encontra na posição \033[31m{}\033[m'.format(r))
+print('Silva' in t)

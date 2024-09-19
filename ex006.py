@@ -1,0 +1,5 @@
+n = int(input('Digite um numero: '))
+d = int(n*2)
+t = int(n*3)
+r = (n**1/n**0.5)
+print('\033[1;36;40mO dobro do número {} corresponde a {}\nO triplo {}\nA raiz quadrada {:.2f}'.format(n, d, t, r))

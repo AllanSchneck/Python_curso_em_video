@@ -1,0 +1,11 @@
+f = str(input('Digite uma frase: '))
+r = (f.lower())
+d = (r.split())
+j = (' '.join(d))
+c = r.count('a')
+p = (j.find('a',0,40))
+u = (j.rfind('a',0,40))
+print('''A frase é \033[1;30;107m{}\033[m
+\na primeira vez que aparece a letra (a) é na posição \033[32m{}\033[m e a última vez é \033[31m{}\033[m'''.format(r,p,u))
+print('A letra A aparece \033[32m{}\033[m vezes'.format(c))
+print(j)

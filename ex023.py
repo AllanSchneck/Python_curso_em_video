@@ -1,0 +1,9 @@
+n = int(input('Digite um número:'))
+u = n // 1 % 10
+d = n // 10 % 10
+c = n // 100 % 10
+m = n // 1000 % 10
+print('''{}\n\033[1;30;41munidade = {}\033[m\n\033[1;30;42m
+Dezena = {}\033[m\n\033[1;30;43m
+Centena = {}\033[m\n
+Milhar = {}'''.format(n, u, d, c, m))
